@@ -73,9 +73,8 @@ ORDER BY order_date ASC;
 
 -- 11
 select 
-from sales_records
-count distinct from order_status
-l
+count distinct from order_status AS unique_order_statuses
+from sales_records;
 
 
 
